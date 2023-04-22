@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* styles.css */
+        /* Adding a grey box around our tradition section*/
+
+
+        .gray-box{
+            width: 80%;
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        /* Adding a grey box around our tradition section*/
+        .gray-box1{
+            width: 60%;
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
+        /* Use to separete the menu section(Appetizers, Entrees, Desserts) */
+        .column-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex-basis: 30%;
+            padding: 0 10px;
+            text-align: justify;
+        }
+
+        /* Use to separete the menu section(Wines, Drinks) */
+        .column-container1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column1 {
+            flex-basis: 30%;
+            padding: 0 30px;
+            text-align: justify;
+        }
+
+        /* Use to separete the menu section(Contact us, hours) */
+        .column-container2 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column2 {
+            flex-basis: 40%;
+            padding: 0 30px;
+            text-align: justify;
+        }
+
+        /* Making sure the hours are aline*/
+        .hours{
+            float:center;
+            margin-left: 30px;
+            text-align: start;
+        }
+
+        /* Button to see all the pictures*/
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: lightblue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: blue;
+        }
+
+    </style>
+    <title>Shaffhausen by Casita Suiza</title>
+</head>
+<body>
+
+    <nav class="nav" >
+        <ul>
+          <li><a href="#news">New and Promotions</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#tradition">Our Tradition</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#special">Special of the day</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          
+        </ul>
+      </nav>
+      <button class="nav-toggle">Menu</button>
+
+
+    <div style="text-align: center;">
+        <h1><b>Shaffhausen by Casita Suiza</b></h1>
+        <img src="first.jpeg" alt="Main picture of the restaurant">
+    </div>
+
+    <!-- Section about News and Promotions-->
+    <div style="text-align: center;">
+        <h2 id="news"><b>News and Promotions</b></h2>
+    </div>
+
+    <div style="margin-left: 75px;">
+        <div class="column-container">
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                    <p>Working on getting news and promotions"</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                    <p>Working on getting news and promotions"</p>
+                </div>
+                  
+            </div>
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                    <p>Working on getting news and promotions"</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <a href="file:///Users/rabellino/Documents/Spring%202023/Web%20Development/Pictures%20web%20page/news.html#" class="button">All news and promotions</a>
+    </div>
+
+    
+
+    <!-- Section on the revies about the restaurant-->
+    <div style="text-align: center;">
+        <h2 id="reviews"><b>Reviews</b></h2>
+    </div>
+
+    <div style="margin-left: 75px;">
+        <div class="column-container">
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                    <p> still working on how to get the stars to show and the date</p>
+                    <p> "Excellent quality and service. Relaxed and family-friendly atmosphere and the best nature you can find. 100% highly recommended 🇺🇾"</p>
+                    <p> - yaqueline a</p>
+                </div>
+
+            </div>
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                    <p>"Highly recommended. Original and gourmet cuisine. It's worth visiting. The attention is great and the prices are very reasonable. Additionally, the restaurant is tastefully decorated with dining rooms to meet every diners' expectations."</p>
+                    <p>- Héctor B</p>
+                </div>
+                  
+            </div>
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                    <p>"Very good place. Family-friendly atmosphere and food."</p>
+                    <p>- Jorge G</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <a href="file:///Users/rabellino/Documents/Spring%202023/Web%20Development/Pictures%20web%20page/write_review.html#" class="button">Write a Review</a>
+        <a href="file:///Users/rabellino/Documents/Spring%202023/Web%20Development/Pictures%20web%20page/all_reviews.html#" class="button">See all Reviews</a>
+    </div>
+
+    <!-- Section about the tradition of the restaurant-->
+    <div style="text-align: center;">
+        <h2 id="tradition"><b>Our Tradition</h2></b>
+        <div class="gray-box">
+            <p>The Franco family's tradition in Puntaesteña cuisine has been passed down from generation to generation for decades. 
+               The renowned cuisine of NEUHAUSEN is part of the history of La Barra de Maldonado. Following in the footsteps of matriarch 
+               Maria Eugenia Franco, today her daughter Maria Eugenia Salgueiro and her grandchildren, Juan, Euge, and Paulina, are in charge 
+               of SCHAFFHAUSEN, offering delicious and exclusive dishes that will please even the most discerning palates.</p>
+        </div>
+    </div>
+
+    <!-- Section about the menu of the restaurant-->
+    <div style="text-align: center;">
+        <h2 id="menu"><b>Menu</b></h2>
+    </div>
+ 
+    <div style="margin-left: 75px;">
+        <div class="column-container">
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                <h3>Appetaizers</h3>
+                </div> 
+                <ul>
+                    <li>Bruschetta</li>
+                    <li>Stuffed mushrooms</li>
+                    <li>Fried calamari</li>
+                    <li>Spinach and artichoke dip</li>
+                    <li>Baked brie</li>
+                    <li>Chicken wings</li>
+                </ul>
+
+            </div>
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                <h3>Entrees</h3>
+                </div>
+
+                <ul>
+                    <li>Steak</li>
+                    <li>Chicken parmesan</li>
+                    <li>Salmon</li>
+                    <li>Pasta dishes</li>
+                    <li>Pork chops</li>
+                    <li>Vegetable stir-fry</li>
+                </ul>
+                  
+            </div>
+
+            <div class="column">
+
+                <div style="text-align: center;">
+                <h3>Desserts</h3>
+                </div>
+
+                <ul>
+                    <li>Cheesecake</li>
+                    <li>Crème brûlée</li>
+                    <li>Tiramisu</li>
+                    <li>Chocolate mousse</li>
+                    <li>Apple pie</li>
+                </ul>
+                  
+
+                </div>
+        </div>
+    </div>
+
+    <div style="margin-left: 300px;">
+    
+        <div class="column-container1">
+        
+
+            <div class="column1">
+                <div style="text-align: center;">
+                    <h3>Wines</h3>
+                </div>
+
+                <ul>
+                    <li>Cabernet Sauvignon</li>
+                    <li>Pinot Noir</li>
+                    <li>Chardonnay</li>
+                    <li>Sauvignon Blanc</li>
+                    <li>Merlot</li>
+                    <li>Riesling</li>
+                </ul>
+                  
+
+            </div>
+
+            <div class="column1">
+
+                <div style="text-align: center;">
+                    <h3>Drinks</h3>
+                </div>
+
+                <ul>
+                    <li>Martini</li>
+                    <li>Margarita</li>
+                    <li>Bloody Mary</li>
+                    <li>Whiskey Sour</li>
+                    <li>Pina Colada</li>
+                    <li>Mojito</li>
+                </ul>
+                  
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Section about the special of the day-->
+    <div style="text-align: center;">
+
+        <h2 id="special"><b>Special of the day</b></h2>
+
+        <div class="gray-box"1>
+        <ul>
+            <li><strong>Appetizer:</strong></li>
+                <ul>
+                    <li>Bruschetta with tomatoes, basil, and mozzarella cheese.</li>
+                </ul>
+            <li><strong>Entree:</strong></li>
+                <ul>
+                    <li>Grilled salmon with lemon and herbs, served with quinoa and steamed vegetables.</li>
+                </ul>
+            <li><strong>Dessert:</strong></li>
+                <ul>
+                    <li>Chocolate lava cake with vanilla ice cream.</li>
+                </ul>
+            <li><strong>Drink:</strong></li>
+                <ul>
+                    <li>Soda or Water.</li>
+                </ul>
+          </ul>
+
+          <div style="text-align: center;">
+            <h4>All for just $1200</h4>
+          </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Section about the pictures of the restaurant and the food-->
+    <div style="text-align: center;">
+        <h2 id="gallery"><b>Gallery</b></h2>
+    </div>
+
+    <!-- Top row of the pictures-->
+    <div style="margin-left: 75px;">
+        <div class="column-container">
+
+            <div class="column">
+
+                <img src="outside1.jpeg" alt="Outside of the restaurant" width="350" height="300">
+
+            </div>
+
+            <div class="column">
+
+                <img src="outside2.jpeg" alt="Outside of the restaurant" width="350" height="300">
+
+            </div>
+
+            <div class="column">
+
+                <img src="outside3.jpeg" alt="Outside of the restaurant" width="350" height="300">
+
+            </div>
+        </div>
+    </div>
+
+        <!-- Middle row of the pictures-->
+        <div style="margin-left: 75px;">
+            <div class="column-container">
+    
+                <div class="column">
+    
+                    <img src="outside4.jpeg" alt="Outside of the restaurant" width="350" height="300">
+    
+                </div>
+    
+                <div class="column">
+    
+                    <img src="outside5.jpeg" alt="Outside of the restaurant" width="350" height="300">
+    
+                </div>
+    
+                <div class="column">
+    
+                    <img src="outside6.jpeg" alt="Outside of the restaurant" width="350" height="300">
+    
+                </div>
+            </div>
+        </div>
+
+        <!-- Low row of the pictures-->
+        <div style="margin-left: 75px;">
+            <div class="column-container">
+
+                <div class="column">
+
+                    <img src="outside7.jpeg" alt="Outside of the restaurant" width="350" height="300">
+
+                </div>
+
+                <div class="column">
+
+                    <img src="outside8.jpeg" alt="Outside of the restaurant" width="350" height="300">
+
+                </div>
+
+                <div class="column">
+
+                    <img src="outside9.jpeg" alt="Outside of the restaurant" width="350" height="300">
+
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="file:///Users/rabellino/Documents/Spring%202023/Web%20Development/Pictures%20web%20page/all_pictures.html#reviews" class="button">See all pictures</a>
+        </div>
+
+    <!-- Section about how to contact the restaurant and when it is open-->
+    <div style="margin-left: 320px;">
+        <div class="column-container2">
+
+            <div class="column2">
+                <div style="text-align: left;">
+                    <h3 id="contact">Contact Us</h3>
+                </div>
+
+                <p> Cheff Maria Eugenia Franco</p>
+                <p><b>Phone Number:</b> 094567131</p>
+                <p><b>Email:</b> Mariujamepau@hotmail.com</p>
+
+            </div>
+
+            <div class="column2">
+
+                <div style="text-align: left;">
+                    <h3>Open Hours</h3>
+                </div>
+
+                <ul>
+                    <li>Monday:     <span class="hours"> 20:00 - 24:00 </span></li>
+                    <li>Tuesday:    <span class="hours"> 20:00 - 24:00 </span></li>
+                    <li>Wednesday:  <span class="hours"> 20:00 - 24:00 </span></li>
+                    <li>Thursday:   <span class="hours"> 20:00 - 24:00 </span></li>
+                    <li>Friday:     <span class="hours"> 20:00 - 24:00 </span></li>
+                    <li>Saturday:   <span class="hours"> 20:00 - 24:00 </span></li>
+                    <li>Sunday:     <span class="hours"> 20:00 - 24:00 </span></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+        
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
